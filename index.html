@@ -1,61 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NOVAFORGE | Future Minds</title>
-</head>
-<body style="background-color: #0d1117; color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; padding: 30px 15px; margin: 0; text-align: center; line-height: 1.6;">
+<!-- Main Navigation Menu -->
+<div style="display: flex; flex-direction: column; gap: 15px; align-items: center; max-width: 320px; margin: 0 auto;">
 
-    <!-- LOGO BANNER -->
-    <div style="margin-bottom: 20px;">
-        <img src="NOVAFORGE_20260618_141200_0000.png" alt="NOVAFORGE Logo" style="width: 100%; max-width: 380px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.5);">
+  <!-- Science Dropdown Menu -->
+  <div class="menu-box" style="position: relative; width: 100%;">
+    <button type="button" style="background-color: #238636; color: #ffffff; border: none; padding: 12px; width: 100%; border-radius: 6px; cursor: pointer; font-size: 1rem; font-weight: bold; font-family: inherit;">
+      ▲ Explore Science
+    </button>
+    <div class="choices-list" style="display: none; position: absolute; background-color: #161b22; border: 1px solid #21262d; border-radius: 6px; width: 100%; z-index: 10; margin-top: 5px; box-shadow: 0px 4px 12px rgba(0,0,0,0.5);">
+      <a href="science-medical.html" style="color: #ffffff; padding: 12px; text-decoration: none; display: block; text-align: center; border-bottom: 1px solid #21262d;">Medical Innovations</a>
+      <a href="science-physics.html" style="color: #ffffff; padding: 12px; text-decoration: none; display: block; text-align: center; border-bottom: 1px solid #21262d;">Physics Conceptual</a>
+      <a href="science-biology.html" style="color: #ffffff; padding: 12px; text-decoration: none; display: block; text-align: center; border-bottom: 1px solid #21262d;">Biology Breakthrough</a>
+      <a href="science-mixed.html" style="color: #ffffff; padding: 12px; text-decoration: none; display: block; text-align: center;">Mixed</a>
     </div>
-    
-    <!-- Custom Description -->
-    <p style="font-size: 1.25rem; color: #c9d1d9; max-width: 600px; margin: 0 auto 40px auto; font-style: italic;">
-        "A place where curious minds explore, ideas, challenges and build that can shape the future."
-    </p>
-    
-    <hr style="border: 0; border-top: 1px solid #21262d; max-width: 400px; margin-bottom: 40px;">
+  </div>
 
-    <h2 style="color: #f0f6fc; font-size: 1.8rem; margin-bottom: 25px;">Explore Portals</h2>
+  <!-- Technology Button -->
+  <button onclick="window.location.href='technology.html'" style="background-color: #1f6feb; color: #ffffff; border: none; padding: 12px; width: 100%; border-radius: 6px; cursor: pointer; font-size: 1rem; font-weight: bold; font-family: inherit;">
+    ■ Explore Technology
+  </button>
 
-    <!-- Main Navigation Menu -->
-    <div style="display: flex; flex-direction: column; gap: 15px; align-items: center; max-width: 320px; margin: 0 auto;">
-        
-        <button onclick="window.location.href='science.html'" style="background-color: #238636; color: #ffffff; border: 1px solid rgba(240,246,252,0.1); padding: 15px 30px; font-size: 1.1rem; border-radius: 8px; width: 100%; cursor: pointer; font-weight: bold; transition: 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.2);">
-            🔬 Explore Science
-        </button>
-
-        <button onclick="window.location.href='technology.html'" style="background-color: #1f6feb; color: #ffffff; border: 1px solid rgba(240,246,252,0.1); padding: 15px 30px; font-size: 1.1rem; border-radius: 8px; width: 100%; cursor: pointer; font-weight: bold; transition: 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.2);">
-            💻 Explore Technology
-        </button>
-
-        <button onclick="window.location.href='business.html'" style="background-color: #8957e5; color: #ffffff; border: 1px solid rgba(240,246,252,0.1); padding: 15px 30px; font-size: 1.1rem; border-radius: 8px; width: 100%; cursor: pointer; font-weight: bold; transition: 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.2);">
-            💼 Explore Business
-        </button>
-        
+  <!-- Business Dropdown Menu -->
+  <div class="menu-box" style="position: relative; width: 100%;">
+    <button type="button" style="background-color: #8957e5; color: #ffffff; border: none; padding: 12px; width: 100%; border-radius: 6px; cursor: pointer; font-size: 1rem; font-weight: bold; font-family: inherit;">
+      ◆ Explore Business
+    </button>
+    <div class="choices-list" style="display: none; position: absolute; background-color: #161b22; border: 1px solid #21262d; border-radius: 6px; width: 100%; z-index: 10; margin-top: 5px; box-shadow: 0px 4px 12px rgba(0,0,0,0.5);">
+      <a href="biz-startups.html" style="color: #ffffff; padding: 12px; text-decoration: none; display: block; text-align: center; border-bottom: 1px solid #21262d;">Startup Ideas</a>
+      <a href="biz-models.html" style="color: #ffffff; padding: 12px; text-decoration: none; display: block; text-align: center; border-bottom: 1px solid #21262d;">Business Models</a>
+      <a href="biz-industries.html" style="color: #ffffff; padding: 12px; text-decoration: none; display: block; text-align: center; border-bottom: 1px solid #21262d;">Future Industries</a>
+      <a href="biz-mixed.html" style="color: #ffffff; padding: 12px; text-decoration: none; display: block; text-align: center;">Mixed</a>
     </div>
+  </div>
 
-    <!-- SIMPLE DIRECT EMAIL SUBMISSION BOX -->
-    <div style="margin-top: 50px; background-color: #161b22; padding: 20px; border-radius: 12px; max-width: 500px; margin-left: auto; margin-right: auto; border: 1px solid #30363d; display: flex; flex-direction: column; gap: 15px;">
-        <h3 style="margin-top: 0; color: #ff7b72; margin-bottom: 0;">Have an Innovation? 💡</h3>
-        <p style="margin: 0; font-size: 0.95rem; color: #8b949e;">Submit your concepts directly to the founder to earn official recognition and access private challenges.</p>
-        
-        <!-- Change your-email@gmail.com below to your real email! -->
-        <button onclick="window.location.href='mailto:your-email@://gmail.com'" style="background-color: #238636; color: white; border: none; padding: 12px 24px; font-size: 1.1rem; border-radius: 6px; font-weight: bold; cursor: pointer; width: 100%;">
-            ✉️ Click to Email Your Idea
-        </button>
+</div>
 
-        <!-- NEW WALL OF FAME GALLERY BUTTON -->
-        <button onclick="window.location.href='leaderboard.html'" style="background-color: #21262d; color: #d29922; border: 1px solid #30363d; padding: 12px 24px; font-size: 1.1rem; border-radius: 6px; font-weight: bold; cursor: pointer; width: 100%;">
-            🏆 View Wall of Fame
-        </button>
-    </div>
+<!-- Hover Magic Scripts to Show/Hide Menus Easily -->
+<style>
+  .menu-box:hover .choices-list {
+    display: block !important;
+  }
+  .choices-list a:hover {
+    background-color: #21262d !important;
+    color: #58a6ff !important;
+  }
+</style>
 
-</body>
-</html>
+
 
 
 
