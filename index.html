@@ -1,49 +1,63 @@
-<!-- Main Navigation Menu -->
-<div style="display: flex; flex-direction: column; gap: 15px; align-items: center; max-width: 320px; margin: 0 auto;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVAFORGE | Future Minds</title>
+</head>
+<body style="background-color: #0d1117; color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; padding: 20px; text-align: center;">
 
-  <!-- Science Dropdown Menu -->
-  <div class="menu-box" style="position: relative; width: 100%;">
-    <button type="button" style="background-color: #238636; color: #ffffff; border: none; padding: 12px; width: 100%; border-radius: 6px; cursor: pointer; font-size: 1rem; font-weight: bold; font-family: inherit;">
-      ▲ Explore Science
-    </button>
-    <div class="choices-list" style="display: none; position: absolute; background-color: #161b22; border: 1px solid #21262d; border-radius: 6px; width: 100%; z-index: 10; margin-top: 5px; box-shadow: 0px 4px 12px rgba(0,0,0,0.5);">
-      <a href="science-medical.html" style="color: #ffffff; padding: 12px; text-decoration: none; display: block; text-align: center; border-bottom: 1px solid #21262d;">Medical Innovations</a>
-      <a href="science-physics.html" style="color: #ffffff; padding: 12px; text-decoration: none; display: block; text-align: center; border-bottom: 1px solid #21262d;">Physics Conceptual</a>
-      <a href="science-biology.html" style="color: #ffffff; padding: 12px; text-decoration: none; display: block; text-align: center; border-bottom: 1px solid #21262d;">Biology Breakthrough</a>
-      <a href="science-mixed.html" style="color: #ffffff; padding: 12px; text-decoration: none; display: block; text-align: center;">Mixed</a>
+    <!-- LOGO BANNER -->
+    <div style="margin-bottom: 20px;">
+        <img src="NOVAFORGE_20260618_141200_0000.png" alt="NOVAFORGE Logo" style="width: 100%; max-width: 380px; border-radius: 8px;">
     </div>
-  </div>
 
-  <!-- Technology Button -->
-  <button onclick="window.location.href='technology.html'" style="background-color: #1f6feb; color: #ffffff; border: none; padding: 12px; width: 100%; border-radius: 6px; cursor: pointer; font-size: 1rem; font-weight: bold; font-family: inherit;">
-    ■ Explore Technology
-  </button>
+    <!-- Custom Description -->
+    <p style="font-size: 1.25rem; color: #c9d1d9; max-width: 600px; margin: 0 auto 40px auto; font-style: italic;">
+        "A place where curious minds explore, ideas, challenges and build that can shape the future."
+    </p>
 
-  <!-- Business Dropdown Menu -->
-  <div class="menu-box" style="position: relative; width: 100%;">
-    <button type="button" style="background-color: #8957e5; color: #ffffff; border: none; padding: 12px; width: 100%; border-radius: 6px; cursor: pointer; font-size: 1rem; font-weight: bold; font-family: inherit;">
-      ◆ Explore Business
-    </button>
-    <div class="choices-list" style="display: none; position: absolute; background-color: #161b22; border: 1px solid #21262d; border-radius: 6px; width: 100%; z-index: 10; margin-top: 5px; box-shadow: 0px 4px 12px rgba(0,0,0,0.5);">
-      <a href="biz-startups.html" style="color: #ffffff; padding: 12px; text-decoration: none; display: block; text-align: center; border-bottom: 1px solid #21262d;">Startup Ideas</a>
-      <a href="biz-models.html" style="color: #ffffff; padding: 12px; text-decoration: none; display: block; text-align: center; border-bottom: 1px solid #21262d;">Business Models</a>
-      <a href="biz-industries.html" style="color: #ffffff; padding: 12px; text-decoration: none; display: block; text-align: center; border-bottom: 1px solid #21262d;">Future Industries</a>
-      <a href="biz-mixed.html" style="color: #ffffff; padding: 12px; text-decoration: none; display: block; text-align: center;">Mixed</a>
+    <hr style="border: 0; border-top: 1px solid #21262d; max-width: 400px; margin-bottom: 40px;">
+
+    <h2 style="color: #f0f6fc; font-size: 1.8rem; margin-bottom: 25px;">Explore Portals</h2>
+
+    <!-- Main Navigation Menu -->
+    <div style="display: flex; flex-direction: column; gap: 15px; align-items: center; max-width: 320px; margin: 0 auto;">
+        
+        <button onclick="window.location.href='science.html'" style="background-color: #238636; color: #ffffff; border: none; padding: 12px; width: 100%; border-radius: 6px; cursor: pointer; font-size: 1rem; font-weight: bold;">
+            ▲ Explore Science
+        </button>
+
+        <button onclick="window.location.href='technology.html'" style="background-color: #1f6feb; color: #ffffff; border: none; padding: 12px; width: 100%; border-radius: 6px; cursor: pointer; font-size: 1rem; font-weight: bold;">
+            ■ Explore Technology
+        </button>
+
+        <button onclick="window.location.href='business.html'" style="background-color: #8957e5; color: #ffffff; border: none; padding: 12px; width: 100%; border-radius: 6px; cursor: pointer; font-size: 1rem; font-weight: bold;">
+            ◆ Explore Business
+        </button>
+
     </div>
-  </div>
 
-</div>
+    <!-- SIMPLE DIRECT EMAIL SUBMISSION BOX -->
+    <div style="margin-top: 50px; background-color: #161b22; padding: 20px; border-radius: 12px; max-width: 500px; margin-left: auto; margin-right: auto; border: 1px solid #21262d;">
+        <h3 style="margin-top: 0; color: #ff7b72; margin-bottom: 10px;">💡Have an Innovation?</h3>
+        <p style="margin: 0; font-size: 0.95rem; color: #8b949e; margin-bottom: 20px;">Submit your concepts directly to the founder to earn your spot!</p>
+        
+        <button onclick="window.location.href='mailto:your-email@gmail.com'" style="background-color: #238636; color: #ffffff; border: none; padding: 12px 24px; border-radius: 6px; cursor: pointer; font-size: 1rem; font-weight: bold;">
+            ■ Click To Email Your Idea
+        </button>
+    </div>
 
-<!-- Hover Magic Scripts to Show/Hide Menus Easily -->
-<style>
-  .menu-box:hover .choices-list {
-    display: block !important;
-  }
-  .choices-list a:hover {
-    background-color: #21262d !important;
-    color: #58a6ff !important;
-  }
-</style>
+    <!-- NEW WALL OF FAME GALLERY BUTTON -->
+    <div style="margin-top: 30px;">
+        <button onclick="window.location.href='leaderboard.html'" style="background-color: #21262d; color: #d29922; border: 1px solid #30363d; padding: 12px 24px; border-radius: 6px; cursor: pointer; font-size: 1rem; font-weight: bold; max-width: 320px; width: 100%;">
+            🏆 View Wall of Fame
+        </button>
+    </div>
+
+</body>
+</html>
+
 
 
 
